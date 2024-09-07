@@ -52,15 +52,15 @@ public class CompExample {
 
     // Student Object - Sorting based on the age of the student
 
-    Comparator<Student> compStudent = new Comparator<Student>() {
-      public int compare(Student a, Student b) {
-        if (a.age > b.age)
-          return 1;
-        else
-          return -1;
-      }
+    // Comparator<Student> compStudent = new Comparator<Student>() {
+    //   public int compare(Student a, Student b) {
+    //     if (a.age > b.age)
+    //       return 1;
+    //     else
+    //       return -1;
+    //   }
 
-    };
+    // };
     List<Student> student = new ArrayList<>();
 
     student.add(new Student(21, "Navin"));
