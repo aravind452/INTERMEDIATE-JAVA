@@ -37,7 +37,7 @@ public class ObjectDemo {
     return super.toString();
   }
 
-  public static void main(String[] args) throws Exception {
+  public static void main(String[] args) {
 
     ObjectDemo obj1 = new ObjectDemo(45);
     System.out.println(obj1 instanceof Object);
@@ -45,6 +45,7 @@ public class ObjectDemo {
     System.out.println(obj1 == obj2); // compares the refs
     System.out.println(obj1.equals(obj2));
     System.out.println(obj1.getClass().getName());
+    System.out.println(obj1.getClass());
 
     // System.out.println(obj1.num);
     // System.out.println(obj1.toString());
