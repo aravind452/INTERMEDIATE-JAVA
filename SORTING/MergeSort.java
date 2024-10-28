@@ -16,7 +16,9 @@ public class MergeSort {
     }
     int mid = arr.length / 2;
     int[] left = mergeSort(Arrays.copyOfRange(arr, 0, mid));
+    System.out.println(Arrays.toString(left));
     int[] right = mergeSort(Arrays.copyOfRange(arr, mid, arr.length));
+    System.out.println(Arrays.toString(right));
     return merge(left, right);
   }
 
