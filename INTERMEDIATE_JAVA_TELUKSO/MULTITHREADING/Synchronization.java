@@ -48,13 +48,17 @@ class Stack {
    * A lock object is simply an instance of Object that we use to mark the
    * sections of code we want to be exclusive (i.e., accessible by only one thread
    * at a time).
+   * 
+   * In code, locks ensure that only one thread can access a critical section
+   * (shared data) at a time to avoid conflicts and errors.
    */
-  Object lock;
+  Object lock, lock1;
 
   public Stack(int capacity) {
     arr = new int[capacity];
     stackTop = -1;
     lock = new Object();
+    // lock1 = new Object();
   }
 
   public boolean push(int element) {
