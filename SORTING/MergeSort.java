@@ -42,3 +42,53 @@ public class MergeSort {
   }
 
 }
+
+/*
+ * package SORTING;
+ * 
+ * import java.util.Arrays;
+ * 
+ * public class MergeSort {
+ * 
+ * public static void main(String[] args) {
+ * int[] arr = { 5, 1, 2, 4 };
+ * mergeSort(arr, 0, arr.length - 1);
+ * System.out.println(Arrays.toString(arr));
+ * }
+ * 
+ * static void mergeSort(int[] arr, int start, int end) {
+ * if (start >= end) {
+ * return;
+ * }
+ * 
+ * int mid = start + (end - start) / 2;
+ * mergeSort(arr, start, mid);
+ * mergeSort(arr, mid + 1, end);
+ * merge(arr, start, mid, end);
+ * }
+ * 
+ * static void merge(int[] arr, int start, int mid, int end) {
+ * int[] merged = new int[end - start + 1];
+ * int leftIndex = start, rightIndex = mid + 1, mergedIndex = 0;
+ * 
+ * while (leftIndex <= mid && rightIndex <= end) {
+ * if (arr[leftIndex] < arr[rightIndex]) {
+ * merged[mergedIndex++] = arr[leftIndex++];
+ * } else {
+ * merged[mergedIndex++] = arr[rightIndex++];
+ * }
+ * }
+ * 
+ * while (leftIndex <= mid) {
+ * merged[mergedIndex++] = arr[leftIndex++];
+ * }
+ * while (rightIndex <= end) {
+ * merged[mergedIndex++] = arr[rightIndex++];
+ * }
+ * 
+ * System.arraycopy(merged, 0, arr, start, merged.length);
+ * }
+ * 
+ * }
+ * 
+ */
