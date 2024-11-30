@@ -1,4 +1,4 @@
-package ARRAYSPROBLEMSPRACTICE;
+
 
 import java.util.*;
 

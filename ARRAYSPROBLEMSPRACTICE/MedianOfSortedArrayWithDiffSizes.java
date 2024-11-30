@@ -1,4 +1,4 @@
-package ARRAYSPROBLEMSPRACTICE;
+
 
 public class MedianOfSortedArrayWithDiffSizes {
 
