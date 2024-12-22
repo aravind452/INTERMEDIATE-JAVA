@@ -1,3 +1,4 @@
+package INHERITANCE;
 
 public class MethodOveriding {
   public static void main(String[] args) {

@@ -1,4 +1,6 @@
 
+package INHERITANCE;
+
 /*
  * Inheritance is one of the core concepts of Object-Oriented Programming (OOP)
  * in Java (or any OOP language). It allows one class to inherit properties and

@@ -1,3 +1,4 @@
+package INHERITANCE;
 public class StaticIntializers {
 
   public static void main(String[] args) {
